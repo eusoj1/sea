@@ -37,7 +37,7 @@
         width: 100%;
         height: auto;
         color: white;
-        background: url(./img/CELESTE4.png) center bottom no-repeat;
+        background: url(img/sea.png) center top no-repeat;
         background-size: 30rem;
         display: flex;
         justify-content: center;
@@ -47,7 +47,11 @@
  
     }
     section .direita p {
-        padding-top: 30rem;
+        padding-top: 15rem;
+        font-size: 1.5vh;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 3rem;
 
     }
     section .section-2{
@@ -266,7 +270,17 @@
         font-size: 3.2vw;
         width: 100%;
     }
-    
+    section .direita {
+        background-size: 25rem;
+    }
+    section .direita p {
+        padding-top: 13rem;
+        font-size: 1.5vh;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 4rem;
+
+    }
 }
 @media screen and (max-width: 400px) {
     div .titulo-1{
@@ -283,7 +297,20 @@
     
 }
 /* TESTO DA SECTION 1, SOB IMG DE CELESTE, DIMENSÃO PARA CELULAR/ DIMINUIR TEXTO*/
+/* NOVO */
+@media screen and (max-width: 450px) {
+    section .direita {
+        background-size: 20rem;
+    }
+    section .direita p {
+        padding-top: 13rem;
+        font-size: 1.6vh;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 4rem;
 
+    }
+}
 @media screen and (max-width: 650px){
     .container p{
         font-size: 12pt;
@@ -353,6 +380,17 @@
     .logo-2{
         width: 70vw;
     }
+    section .direita {
+        background-size: 16rem;
+    }
+    section .direita p {
+        padding-top: 10rem;
+        font-size: 1.5vh;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 4rem;
+
+    }
 }
 @media screen and (max-width: 357px){
     .section-4 .cont-left .box{
@@ -362,6 +400,24 @@
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width: 1300px){
+    .section-4 .cont-left .box{
+        font-size: 0.9rem;
+    }
+    .section-4 .cont-right .box{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 550px){
+    .section-4 .cont-left .box{
+        font-size: 3vw;
+    }
+    .section-4 .cont-right .box{
+        font-size: 3vw;
+    }
+}
+
 @media screen and (max-width: 300px) {
     #button{
         width: 80vw;
@@ -439,6 +495,17 @@
     .container .direita p{
         font-size: 4vw;
         text-align: center;
+
+    }
+    section .direita {
+        background-size: 70%;
+    }
+    section .direita p {
+        padding-top: 8rem;
+        font-size: 1.5vh;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 3rem;
 
     }
 }
