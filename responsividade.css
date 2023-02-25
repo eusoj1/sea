@@ -509,3 +509,19 @@
 
     }
 }
+
+/* VIDEO */
+@media screen and (max-width: 1000px){
+    .container-5 .video01{
+        width: 40%;
+    }
+    .container-5 .video02{
+        width: 40%;
+    }
+    .container-5 .video03{
+        width: 40%;
+    }
+    .container-5 .video04{
+        width: 40%;
+    }
+}
