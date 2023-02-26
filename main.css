@@ -328,6 +328,13 @@ section .cont-3 li {
     padding-bottom: 2rem;
 }
 
+.container88{
+    background-color: black;
+}
+.container00{
+    background-color: black;
+}
+
 .SECTION-7 {
     margin-top: 5rem;
     display: flex;
@@ -352,7 +359,7 @@ section .cont-3 li {
     width: 100%;
     height: auto;
     padding-top: 5rem;
-    background-color: black;
+    /* background-color: black; */
     padding-bottom: 3rem;
 }
 
