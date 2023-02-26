@@ -331,10 +331,6 @@ section .cont-3 li {
 .container88{
     background-color: black;
 }
-.container00{
-    background-color: black;
-}
-
 .SECTION-7 {
     margin-top: 5rem;
     display: flex;
@@ -395,4 +391,30 @@ section .cont-3 li {
     background-color: rgb(136, 255, 107);
     border: 2px solid rgb(255, 255, 255);
     color: #000000;
+}
+/* aba nossos clientes */
+.container50 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.cont50 h1{
+    color: aliceblue;
+    font-size: 5vw;
+}
+.cont50 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cont50 img{
+    padding-top: 2rem;
+    width: 70vw;
+    padding-bottom: 2rem;
+
 }
