@@ -266,9 +266,62 @@ section .cont-3 li {
     align-items: center;
     padding-bottom: 2rem;
 }
+/* IMAGENS DRONE*/
+.contdrone{
+    margin-top: 4rem;
+    /* background-color: rgba(255, 255, 255, 0.39); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.contdrone .videos2{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.contdrone .video03{
+    width: 20%;
+    margin-right: 3%;
+    border: solid 1px rgb(255, 255, 255);
+}
+.contdrone .video04{
+    width: 20%;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.contdrone .tittle-h10{
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contdrone .direto-10{
+    color: rgb(1, 255, 86);
+
+}
+.contdrone .tittle-cont-10{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
 .container-5 .videos{
     display: flex;
-    width: auto;
+    width: 100%;
     height: auto;
     margin-bottom: 1%;
 }
@@ -286,15 +339,7 @@ section .cont-3 li {
     width: 20%;
     border: solid 1px rgb(255, 255, 255);
 }
-.container-5 .video03{
-    width: 20%;
-    margin-right: 3%;
-    border: solid 1px rgb(255, 255, 255);
-}
-.container-5 .video04{
-    width: 20%;
-    border: solid 1px rgb(255, 255, 255);
-}
+
 .container-5 .tittle-cont-5{
     /* background-color: blue; */
     width: 100%;
@@ -308,13 +353,13 @@ section .cont-3 li {
 }
 .container-5 .tittle-h3{
     color: rgb(92, 245, 87);
-    width: 80%;
+    width: 90%;
     height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .container-5 .direto-1{
     color: rgb(255, 255, 255);
@@ -323,13 +368,25 @@ section .cont-3 li {
 .container-7{
     width: 100%;
     display: flex;
-    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.411);
     margin-top: 2rem;
     padding-bottom: 2rem;
 }
+.container99{
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+.container99 h2{
+    padding-bottom: 0rem;
+    font-size: 1.0rem;
+    text-align: center;
+    color: #fff;
+}
 
 .container88{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(255, 255, 255, 0);
 }
 .SECTION-7 {
     margin-top: 5rem;
@@ -355,7 +412,7 @@ section .cont-3 li {
     width: 100%;
     height: auto;
     padding-top: 5rem;
-    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.411);
     padding-bottom: 3rem;
 }
 
@@ -404,7 +461,7 @@ section .cont-3 li {
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: #00000069;
+    /* background-color: #db0e0e69; */
     padding-top: 4rem;
     padding-bottom: 4rem;
 }

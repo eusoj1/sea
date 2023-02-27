@@ -518,10 +518,12 @@
     .container-5 .video02{
         width: 40%;
     }
-    .container-5 .video03{
+}
+@media screen and (max-width: 1000px){
+    .contdrone .video03{
         width: 40%;
     }
-    .container-5 .video04{
+    .contdrone .video04{
         width: 40%;
     }
 }
