@@ -257,7 +257,7 @@ section .cont-3 li {
 
 .container-5{
     margin-top: 4rem;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.39);
     width: 100%;
     height: auto;
     display: flex;
@@ -329,7 +329,7 @@ section .cont-3 li {
 }
 
 .container88{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 .SECTION-7 {
     margin-top: 5rem;
@@ -341,7 +341,7 @@ section .cont-3 li {
     height: auto;
 }
 .container-7 h1{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-align: center;
     color: #fff;
     padding-bottom: 4rem;
@@ -360,7 +360,7 @@ section .cont-3 li {
 }
 
 .cont-9{
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,7 +370,11 @@ section .cont-3 li {
 
 }
 .cont-9 h1{
+    font-size: 1rem;
     padding-bottom: 3rem;
+}
+.cont-9 h2{
+    font-size: 0.8rem;
 }
 .cont-9 img{
     padding-bottom: 3rem;
@@ -400,12 +404,15 @@ section .cont-3 li {
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: #000000;
+    background-color: #00000069;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .cont50 h1{
+    padding-bottom: 2rem;
     color: aliceblue;
-    font-size: 5vw;
+    font-size: 1.0rem;
 }
 .cont50 {
     align-items: center;
