@@ -482,3 +482,8 @@ section .cont-3 li {
     padding-bottom: 2rem;
 
 }
+
+
+.logo-2 ,.cont-left, .cont-right, .tittle-cont-5, .videos, .tittle-cont-10, .videos2, .SECTION-7, .cont50, .cont-9 {
+    visibility: hidden;
+}
